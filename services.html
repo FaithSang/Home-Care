@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNITED HOMECARE AND NURSING STAFFING LLC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom styles for the header and footer */
+        .navbar {
+          background-color: #e0876a; 
+          padding: 20px 0; 
+          margin-bottom: 10px;
+        }
+        .navbar-brand {
+          font-weight: bold;
+          font-size: 1.5rem;
+          font-family: Arial, sans-serif;
+          color:white;
+          white-space: normal;
+        }
+        .navbar-brand:hover{
+          color:rgba(0, 0, 0, 0.7) ;
+        }
+        .nav-item .nav-link {
+        color: white; 
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        }
+        .nav-link:hover{
+          color:rgba(0, 0, 0, 0.7) ;
+        }
+
+        /* Media query for smaller screens like phones and tablets */
+        @media (max-width: 768px) {
+          .navbar{
+            padding: 10px 0; /* Reduce padding on smaller screens */
+          }
+          .navbar-brand {
+            font-size: 1.2rem; /* Slightly smaller font for phones and tablets */
+          }
+          .navbar-item .nav-link{
+            font-size: 1rem; /*Reduce font size for nav links on smaller screens */
+            padding: 8px 10px; /* Reduce padding for nav links */
+          }
+        }
+
+        /* Sevices section*/
+        .custom-heading {
+          color:#008080;
+        }
+        .circular-img {
+            width: 400px; /* Makes the image responsive */
+            height: 400px; /* Maintains aspect ratio */
+            border-radius: 50%; /* Creates the circular shape */
+            object-fit: cover; /* Ensures the image covers the container properly */
+        }
+        /* Button styling */
+        .btn-link {
+          color: #e0876a; /* Button color */
+          font-weight: bold; /* Make it bold */
+          margin-top: 10px; /* Space above the button */
+          display: inline-block; /* Ensure button is inline */
+          border: 2px solid #e0876a;
+          border-radius: 50px;
+          padding: 10px 20px;
+          text-decoration: none;
+        }
+
+        .btn-link:hover {
+          color: #6c757d; /* Change color on hover */
+          border: 2px solid #6c757d;
+          border-radius: 50px;
+        }
+        /* Caregiver Responsibilities*/
+        #caregiver-responsibilities{
+          margin: 20px 0;
+        }
+        .responsibility-item{
+          text-align: center;
+          margin: 20px 0;       
+        }
+        .responsibility-item h3{
+          margin-top: 10px;  
+        }
+        .responsibility-item p{
+          margin-top: 5px;
+        }
+        .fas{
+          color: #e0876a;
+        }
+
+        /* Footer*/
+        footer {
+          background-color: #e0876a;
+          padding: 20px 0;
+          margin-top: 50px;
+        }
+        footer p {
+          margin: 0;
+         /* color: #6c757d; */
+        }
+        footer a{
+            color: black;
+            text-decoration: underline;
+        }
+        footer a:hover{
+            color:darkgray;
+        }
+      </style>
+</head>
+<body>
+    <!-- Header (Navbar) -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">UNITED HOMECARE AND NURSING STAFFING LLC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link"  href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Main content would go here -->
+
+  <div class="container mt-5" id="about">
+    <div class="row align-items-center">
+        <!-- Image on the left -->
+        <div class="col-md-6">
+            <img src="images/pic2.jpg" alt="Caring for the elderly" class="img-fluid circular-img">
+        </div>
+
+        <!-- Text on the right -->
+        <div class="col-md-6">
+            <h2 class="custom-heading">Alzheimer's & Dementia Care</h2>
+            <p>
+              Our specialized Alzheimer's and Dementia care services focus on creating a safe, supportive environment where your loved one can maintain their independence at home. 
+              We tailor our care to meet the unique needs of individuals, ensuring their safety, comfort, and well-being, while providing compassionate support to enhance their quality of life.
+            </p>
+        </div>
+    </div>
+
+    <div class="row align-items-center">
+      <!-- Text on the Left -->
+      <div class="col-md-6">
+          <h2 class="custom-heading">Geriatric and Assited Living Care</h2>
+          <p>
+            Our Geriatric and Assisted Living Care services aim to enhance your loved one’s quality of life by offering personalized support tailored to their specific needs. 
+            We prioritize their comfort and well-being, allowing them to continue living independently in the familiarity of their home while receiving the care they need to thrive.
+          </p>
+      </div>
+      <!-- Image on the Right -->
+      <div class="col-md-6">
+        <img src="images/pic3.png" alt="Caring for the elderly" class="img-fluid circular-img">
+        </div>
+    </div>
+
+    <div class="row align-items-center">
+      <!-- Image on the left -->
+      <div class="col-md-6">
+          <img src="images/pic4.png" alt="Caring for the elderly" class="img-fluid circular-img">
+      </div>
+
+      <!-- Text on the right -->
+      <div class="col-md-6">
+          <h2 class="custom-heading">Hospice &Palliative Care</h2>
+          <p>
+            During this challenging time, our priority is to provide comfort and peace in a familiar environment. 
+            Our Hospice and Palliative Care services are designed to support both the individual and their family, ensuring dignity, compassion, and relief from discomfort as they navigate this stage of life. 
+            We are here to help, offering care and understanding every step of the way.
+          </p>
+      </div>
+    </div>
+
+    <div class="row align-items-center">
+      <!-- Text on the right -->
+      <div class="col-md-6">
+          <h2 class="custom-heading">Overnight Care</h2>
+          <p>
+            Our Personal Care Services focus on providing essential support with daily activities, while prioritizing comfort and maintaining a sense of familiarity. 
+            We understand that this stage of life can be challenging, and we are here to offer compassionate, reliable assistance to ensure your loved one’s well-being and independence at home.
+          </p>
+      </div>
+      <!-- Image on the left -->
+      <div class="col-md-6">
+        <img src="images/pic5.jpg" alt="Caring for the elderly" class="img-fluid circular-img">
+      </div>
+    
+    </div>
+
+    <div class="row align-items-center">
+      <!-- Image on the left -->
+      <div class="col-md-6">
+          <img src="images/pic6.jpg" alt="Caring for the elderly" class="img-fluid circular-img">
+      </div>
+
+      <!-- Text on the right -->
+      <div class="col-md-6">
+          <h2 class="custom-heading">Personal Care Services</h2>
+          <p>
+            Our most important concern during this time is maintaining comfort and familiarity. This stage of life is difficult, but we're here to help
+          </p>
+      </div>
+  </div>
+  
+  </div>
+  <!-- Caregiver's Responsibilities-->
+  <div class="container mt-5" id="caregiver-responsibilities">
+    <h2 class="custom-heading">Caregiver Responsibilities</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-user fa-2x"></i>
+                <h3 class="custom-heading">Personal Care</h3>
+                <p>Assisting with daily personal hygiene and grooming tasks.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-arrows-alt-h fa-2x"></i>
+                <h3 class="custom-heading">Mobility</h3>
+                <p>Helping clients move safely within their home and community.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-bus fa-2x"></i>
+                <h3 class="custom-heading">Transportation</h3>
+                <p>Providing transportation to appointments and errands.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-home fa-2x"></i>
+                <h3 class="custom-heading">Housekeeping</h3>
+                <p>Maintaining a clean and safe living environment.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-utensils fa-2x"></i>
+                <h3 class="custom-heading">Food Preparation</h3>
+                <p>Preparing nutritious meals according to dietary needs.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-pills fa-2x"></i>
+                <h3 class="custom-heading">Medication</h3>
+                <p>Assisting with medication management and reminders.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-comments fa-2x"></i>
+                <h3 class="custom-heading">Socialization</h3>
+                <p>Encouraging social interactions and activities.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-hospital fa-2x"></i>
+                <h3 class="custom-heading">Medical Assistance</h3>
+                <p>Providing basic medical care and support.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-user-md fa-2x"></i>
+                <h3 class="custom-heading">Medical Advocacy</h3>
+                <p>Advocating for the client’s health needs and preferences.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-file-alt fa-2x"></i>
+                <h3 class="custom-heading">Care Records</h3>
+                <p>Maintaining accurate records of care and services provided.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="responsibility-item">
+                <i class="fas fa-home fa-2x"></i>
+                <h3 class="custom-heading">Home Environment</h3>
+                <p>Ensuring a safe and comfortable living space.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h5>Contact us</h5>
+                <p><a href="tel:+2052226970">Phone: (205) 222-6970</a></p>
+                <p><a href="mailto:eliudsaina@yahoo.com">Email: eliudsaina@yahoo.com</a></p>
+                 <p>Adress: Arboretum Cir, Verstavia Hills, AL 35216 USA</p>
+            </div>
+        </div>
+        <br>
+      <div class="row">
+        <div class="col-12">
+          <p>&copy; 2024 UNITED HOMECARE AND NURSING STAFFING LLC | All Rights Reserved.</p>
+          <p>Phone: (205) 222-6070 | Email: eliudsaina@yahoo.com </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   <!-- Bootstrap JS (for the navbar toggling) -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
