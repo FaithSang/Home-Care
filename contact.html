@@ -250,10 +250,12 @@
       var message = document.getElementById('message').value;
 
       var mailtoLink = "mailto:eliudsaina@yahoo.com?subject=" + encodeURIComponent(subject) +
-                       "&body=" + encodeURIComponent("Full Name: " + name + 
-                       "\\nEmail: " + email + 
-                       "\\nContact Number: " + contact + 
-                       "\\nMessage: " + message);
+                             "&body=" + encodeURIComponent(
+                                 "Full Name: " + name + "\n" +
+                                 "Email: " + email + "\n" +
+                                 "Contact Number: " + contact + "\n" +
+                                 "Message: " + message
+                             );
 
       window.location.href = mailtoLink;
 
