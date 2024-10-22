@@ -115,7 +115,7 @@
         }
 
         /* Form button styles */
-        button[type="submit"] {
+        button[type="button"] {
             background-color: white;
             color: #e0876a;
             padding: 10px 20px;
@@ -125,7 +125,7 @@
             transition: background-color 0.3s ease;
         }
 
-        button[type="submit"]:hover {
+        button[type="button"]:hover {
           color: #6c757d; /* Change color on hover */
           border: 2px solid #6c757d;
           border-radius: 50px;
@@ -139,7 +139,7 @@
                 margin-right: 5px;
             }
 
-            button[type="submit"] {
+            button[type="button"] {
                 width: 100%; /* Full-width button on smaller screens */
             }
         }
@@ -201,7 +201,7 @@
     </div>
   </div>
 
-  <form action="" method="POST">
+  <form id="contactForm" onsubmit="return false;">
     <label for="name">Full Name:</label>
     <input type="text" id="name" name="name" placeholder="Your name"><br><br>
  
@@ -217,7 +217,7 @@
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="4" placeholder="Your message to us" required></textarea><br><br>
  
-    <button type="submit">Send</button>
+    <button type="button" onclick="sendEmail()">Send</button>
  </form>
 
   <!-- Footer -->
@@ -256,6 +256,9 @@
                        "\\nMessage: " + message);
 
       window.location.href = mailtoLink;
+
+       // Clear the form fields (optional)
+       document.getElementById('contactForm').reset();
     }
   </script>
 
